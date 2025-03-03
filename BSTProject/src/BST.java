@@ -1,12 +1,16 @@
 /*
  * Name: Kevin Zheng
- * Date: 02/24/2025
+ * Date: 03/03/2025
  * Class Period: 3
- * Description: The BST class creates the ability to allow to programmer to use trees. The size method checks the number of nodes in the tree. The isEmpty checks if there are nodes in the tree. 
- * The add method adds the node to the correct place in the tree depending on lexicographical order and the addHelper method assists with that via recursion. The delete method
- * deletes the first node that matches what it's supposed to delete and deletes the node in various ways depending on if the node has 0, 1, or 2 childs and the delHelper method assists via recursion.
- * The printInOrder method prints out the tree in left, root, right order. The printPreOrder method prints the tree in root, left, right order. The printPostOrder prints the tree in left, right, root order.
- * Each of the print methods has a helper method to assist them mainly via recursion.  
+ * Description: The BST class creates the ability to allow the programmer to create and use trees. The size method checks the number of nodes in the tree. 
+ * The isEmpty checks if there are nodes in the tree. The add method adds the node to the correct place in the tree depending on lexicographical order 
+ * and the addHelper method assists with that via recursion. The delete method deletes the first node that matches what it's supposed to delete and 
+ * deletes the node in various ways depending on if the node has 0, 1, or 2 childs and the delHelper method assists via recursion.
+ * The find method determines if a value is in the tree and outputs true if the value is there and false if the value isn't in the tree. 
+ * The findHelper method helps the find function by traversing through the tree via recursion. 
+ * The replace method deletes a given value if the value is in the tree and then regardless of if the value is deleted, another given value is added to the tree. 
+ * The printInOrder method prints out the tree in left, root, right order. The printPreOrder method prints the tree in root, left, right order. 
+ * The printPostOrder prints the tree in left, right, root order. Each of the print methods has a helper method to assist them mainly via recursion.  
  */
 import java.lang.Comparable;
 

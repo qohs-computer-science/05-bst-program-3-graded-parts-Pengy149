@@ -1,14 +1,16 @@
 /*
  * Name: Kevin Zheng
- * Date: 02/20/2025
+ * Date: 03/03/2025
  * Class Period: 3
  * Description: This file first creates an instance testTree to be able to use the BST's methods. Then, the isEmpty method is tested to see if it can check if a tree is empty. 
  * After that, each character of ORCHARDQUINCE is added to the tree and then they are printed out in order, pre order, and post order. After that, the BST's size method is tested
  * and isEmpty is tested to see if it can output true. Next, the delete method is tested by seeing if it can remove nodes with 0 child, nodes with 1 child, and nodes with 2 children. 
- * After each removal, the tree is printed in all 3 orders to check if the node was removed and at the end the tree's size is checked. The remove method is also tested on a nonexistent node to test its response. 
+ * After each removal, the tree is printed in all 3 orders to check if the node was removed and at the end the tree's size is checked. 
+ * The remove method is also tested on a nonexistent node to test its response. 
  * Then, the find method is tested by checking if it can find a node within the tree and whether it will return false when searching for a nonexistent node. 
  * Finally, the replace method is tested by replacing nodes with 0 child, nodes with 1 child, and nodes with 2 childs. 
- * After each replacement, the tree is printed in all 3 orders to check if the replace method worked. The replace method is also tested on a nonexistent node to test its response. 
+ * After each replacement, the tree is printed in all 3 orders to check if the replace method worked. 
+ * The replace method is also tested on a nonexistent node to test its response. 
  */
 
 import java.lang.Comparable;
