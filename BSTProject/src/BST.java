@@ -133,6 +133,7 @@ public class BST implements BSTInterface
 				treeLC = tree.getLeft();
 				treeRC = tree.getRight();
 				tree.setLeft(null);
+				tree.setRight(null);
 				tree = treeLC; 
 				tempNodes = tree; 
 				while (tempNodes.getRight() != null) 
@@ -145,6 +146,7 @@ public class BST implements BSTInterface
 				else
 					tree = tree.getRight(); 
 			} // end else statement 
+			nodes--;
 			return true; 
 		} // end delete 
 		
@@ -169,6 +171,7 @@ public class BST implements BSTInterface
 				delLC = toDelete.getLeft();
 				delRC = toDelete.getRight();
 				toDelete.setLeft(null);
+				toDelete.setRight(null);
 				parent.setLeft(delLC);
 				// loop through to add toDelete’s RC to farthest point
 				// on the right in toDelete’s LC
@@ -197,6 +200,7 @@ public class BST implements BSTInterface
 				delLC = toDelete.getLeft();
 				delRC = toDelete.getRight();
 				toDelete.setLeft(null);
+				toDelete.setRight(null);
 				parent.setRight(delLC);
 				// loop through to add toDelete’s RC to farthest point
 				// on the right in toDelete’s LC
